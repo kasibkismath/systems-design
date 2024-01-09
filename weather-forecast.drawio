@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T06:02:36.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MxAZMAbucltzLxiSZM90" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T06:15:54.361Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sTxoZgM0IyOYLxPtyX0h" version="22.1.16" type="github">
   <diagram name="Page-1" id="pxuf2U1V3LHHq1BTwwVS">
     <mxGraphModel dx="1434" dy="1865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="qtHTMxOcYqQ3EufBKgGB-5" value="Web&amp;nbsp;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="130" y="-804" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qtHTMxOcYqQ3EufBKgGB-6" value="Mobile (90% usage)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="qtHTMxOcYqQ3EufBKgGB-6" value="Mobile" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="130" y="-664" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qtHTMxOcYqQ3EufBKgGB-10" value="* user can get updates on the weather&lt;br&gt;* user will be updates on weather every 4 hours&lt;br&gt;* in case of bad weather or emergency notify users immediately" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="qtHTMxOcYqQ3EufBKgGB-10" value="* user can get updates on the weather&lt;br&gt;* user will be updates on weather every 4 hours&lt;br&gt;* in case of bad weather or emergency notify users immediately - heavy rain above 100 mm or heavy thunderstrom or flood" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="-1140" width="350" height="180" as="geometry" />
         </mxCell>
         <mxCell id="qtHTMxOcYqQ3EufBKgGB-13" value="LB" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -22,7 +22,7 @@
         <mxCell id="qtHTMxOcYqQ3EufBKgGB-16" value="BE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="410" y="-740" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="qtHTMxOcYqQ3EufBKgGB-17" value="3rd party weather forecast provider" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="qtHTMxOcYqQ3EufBKgGB-17" value="3rd party provider" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="560" y="-750" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qtHTMxOcYqQ3EufBKgGB-18" value="CDN" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -110,6 +110,12 @@
         </mxCell>
         <mxCell id="qtHTMxOcYqQ3EufBKgGB-43" value="push notifications" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="-942" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qtHTMxOcYqQ3EufBKgGB-44" value="90% usage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-572" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qtHTMxOcYqQ3EufBKgGB-45" value="tomorrow.io (+webhook)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="525" y="-662" width="150" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

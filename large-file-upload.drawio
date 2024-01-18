@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T08:04:49.967Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="QOE1qOCIT9qjGehzjrWM" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T08:15:09.339Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Z1RjXBfnEyX4-5lAv7YF" version="22.1.18" type="github">
   <diagram name="Page-1" id="FsghckCPafwVSijcmHln">
     <mxGraphModel dx="1434" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -118,11 +118,8 @@
         <mxCell id="7ID_BC6Ww6_YKEnsS9i6-38" value="data chunks" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="585" y="80" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7ID_BC6Ww6_YKEnsS9i6-47" value="ws" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="350" width="40" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="7ID_BC6Ww6_YKEnsS9i6-48" value="ws" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="250" y="495" width="40" height="30" as="geometry" />
+        <mxCell id="7ID_BC6Ww6_YKEnsS9i6-47" value="event source (SSE)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7ID_BC6Ww6_YKEnsS9i6-64" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="7ID_BC6Ww6_YKEnsS9i6-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -172,6 +169,9 @@
             <mxPoint x="390" y="430" as="sourcePoint" />
             <mxPoint x="530" y="300" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="7ID_BC6Ww6_YKEnsS9i6-78" value="event source (SSE)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="520" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
